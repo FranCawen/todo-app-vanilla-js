@@ -48,7 +48,7 @@ Este proyecto pone en práctica:
 1. Clonar el repositorio:
 
 ```bash
-git clone [https://github.com/TU-USUARIO/todo-app-vanilla-js.git](https://github.com/FranCawen/todo-app-vanilla-js.git)
+git clone https://github.com/TU-USUARIO/todo-app-vanilla-js.git](https://github.com/FranCawen/todo-app-vanilla-js.git
 ```
 
 2. Abrir el archivo `index.html` en el navegador.
