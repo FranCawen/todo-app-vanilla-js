@@ -18,7 +18,7 @@ Aplicación web de lista de tareas desarrollada con **JavaScript puro**, que per
 ## 🛠️ Tecnologías utilizadas
 
 * HTML5
-* CSS3 (Bootstrap 5)
+* CSS3 (Con las librerias de Bootstrap 5)
 * JavaScript (Vanilla JS)
 
 ---
