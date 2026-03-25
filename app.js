@@ -1,4 +1,5 @@
 //SELECIONAMOS LOS ELEMENTOS DEL DOM
+const btnBuscar = document.querySelector('#btnBuscar');
 const buscarInput = document.querySelector('#buscarInput');
 const contador = document.querySelector('#contador');
 const tareaInput = document.querySelector('#tareaInput');
@@ -95,8 +96,15 @@ function actualizarLista() { //Esta es la funcion mas importante, actualizarList
     localStorage.setItem('tareas', JSON.stringify(tareas)); //JSON.stringify convierte el array en texto y nos da persistencia a la hora de recargar la pagina
 }
 
-buscarInput.addEventListener('input', function () { //Filtra tareas en tiempo real mientras el usuario escribe.
-    actualizarLista();
+buscarInput.addEventListener('keypress', function (event) { //Filtra tareas al presionar la tecla Enter.
+    if (event.key === 'Enter'){
+        event.preventDefault();
+        actualizarLista();
+    }
+});
+btnBuscar.addEventListener('click', function (event) { //Filtra tareas al ahcer click en el boton de buscar.
+        event.preventDefault();
+        actualizarLista();
 });
 
 agregarBtn.addEventListener('click', agregarTarea); //Agrega una tarea al hacer click en el boton Agregar
