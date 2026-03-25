@@ -45,13 +45,8 @@ Este proyecto pone en práctica:
 
 ## ⚙️ Cómo usar
 
-1. Clonar el repositorio:
-
-```bash
-git clone https://github.com/TU-USUARIO/todo-app-vanilla-js.git](https://github.com/FranCawen/todo-app-vanilla-js.git
-```
-
-2. Abrir el archivo `index.html` en el navegador.
+Copiar y pegar el siguiente link en el navegador para acceder a una demostracion:
+https://to-do-app-fran.netlify.app
 
 ---
 
