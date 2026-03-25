@@ -39,7 +39,7 @@ Este proyecto pone en práctica:
 
 ## 📸 Vista previa
 
-*(Podés agregar una captura de pantalla acá)*
+<img width="1874" height="967" alt="image" src="https://github.com/user-attachments/assets/f8903596-a2e8-40aa-b796-824d5a03f089" />
 
 ---
 
