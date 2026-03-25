@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            background: linear-gradient(125deg, #667eea, #764ba2);
+            min-height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-do App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <br>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand"></a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Escriba la tarea" aria-label="Search" id="buscarInput"/>
+                <button class="btn btn-dark" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+
+
+    <br><br><br>
+    <div class="container mt-5">
+        <p id="contador" class="text-muted small"></p>
+        <p class="display-3 text-center mb-4">Lista de tareas</p>
+        <div class="input-group mb-3">
+            <input type="text" id="tareaInput" class="form-control " placeholder="Escriba una tarea...">
+            <button id="agregarBtn" class="btn btn-primary">Agregar
+        </div>
+        <ul id="listaTareas" class="list-group mt-3"></ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
