@@ -70,7 +70,6 @@ git clone https://github.com/TU-USUARIO/todo-app-vanilla-js.git
 ## 🎯 Estado del proyecto
 
 ✅ Proyecto funcional
-✅ Listo para portfolio
 🚀 En futuras mejoras:
 
 * edición de tareas
